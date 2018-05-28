@@ -3,3 +3,12 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+
+
+html {
+  background: url('http://littlereasonstosmile.me/wp-content/uploads/aircraft-clip-art-free-vector-in-open-office-drawing-svg-airplane-images.jpg') fixed center;
+  background-repeat: no-repeat;
+  background-size: contain  
+}
+
