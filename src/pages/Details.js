@@ -7,7 +7,6 @@ class Details extends React.Component {
         this.state = {
             flightDetails: {},
             companyLogoUrl: '',
-            loading: true
         }
     }
 
@@ -25,7 +24,6 @@ class Details extends React.Component {
                     this.setState({
                         flightDetails: flightDataObject,
                         companyLogoUrl: logoImg || 'http://via.placeholder.com/128x128',
-                        loading: false
                     })
 
                 })
@@ -59,7 +57,6 @@ class Details extends React.Component {
                         </div>
                     </div>
                 </div>
-
             </React.Fragment>
         )
     }

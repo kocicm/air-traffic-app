@@ -9,4 +9,5 @@ const findLogo = (company) => {
             }
         })
 }
+
 export default findLogo;
